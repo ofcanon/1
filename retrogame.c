@@ -91,10 +91,10 @@ struct {
 	// This pin/key table is used if an Adafruit PiTFT display
 	// is detected (e.g. Cupcade or PiGRRL).
 	// Input   Output (from /usr/include/linux/input.h)
-	{  27,     KEY_LEFT     },   // Joystick (4 pins)
-	{   4,     KEY_RIGHT    },
-	{  18,     KEY_DOWN     },
-	{  17,     KEY_UP       },
+	{  16,     KEY_LEFT     },   // Joystick (4 pins)
+	{  20,     KEY_RIGHT    },
+	{  26,     KEY_DOWN     },
+	{  21,     KEY_UP       },
 	{  21,     KEY_LEFTCTRL },   // A/Fire/jump/primary
 	{  26,     KEY_1        },   // B/Bomb/secondary
 	{  20 ,    KEY_LEFTALT  },   // Credit
